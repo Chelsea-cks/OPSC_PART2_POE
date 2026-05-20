@@ -11,8 +11,8 @@ import androidx.room.RoomDatabase
  * Includes entities for Users, Categories, Transactions, and Buckets.
  */
 @Database(
-    entities = [User::class, Category::class, Transaction::class, Bucket::class],
-    version = 2,
+    entities = [User::class, Category::class, Transaction::class, Bucket::class, Badge::class],
+    version = 3,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
