@@ -18,7 +18,7 @@ Dan ST10408412
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This is a **fully functional Android Budget Tracker** application developed as part of the OPSC6311 POE Part 2.
 
@@ -29,7 +29,7 @@ All data is persistently stored in a local **Room Database**. The app follows **
 
 ---
 
-## ✨ Features Implemented (All POE Part 2 Requirements Met)
+##  Features Implemented (All POE Part 2 Requirements Met)
 
 -  User registration and login (username + password)
 -  Create custom income and expense categories (with automatic default categories)
@@ -52,7 +52,7 @@ All data is persistently stored in a local **Room Database**. The app follows **
 
 ---
 
-## 🛠️ Technologies & Architecture
+##  Technologies & Architecture
 
 - **Language:** Kotlin
 - **UI:** Jetpack Compose + Material 3
@@ -65,7 +65,7 @@ All data is persistently stored in a local **Room Database**. The app follows **
 
 ---
 
-## 📱 How to Run the App
+##  How to Run the App
 
 1. Clone or download the project.
 2. Open the project in **Android Studio**.
@@ -78,7 +78,7 @@ All data is persistently stored in a local **Room Database**. The app follows **
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 
 - **Login / Register Screen**
@@ -111,7 +111,7 @@ All data is persistently stored in a local **Room Database**. The app follows **
 
 ---
 
-## 🎥 Video Demonstration
+##  Video Demonstration
 
 **Link:** [Insert your YouTube / Google Drive video link here]
 
@@ -137,7 +137,7 @@ The video demonstrates:
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 - Passwords are stored in plain text (for demonstration purposes only).
 - `Bucket.kt` entity was created but not fully implemented (planned for Part 3 gamification/savings buckets).
@@ -146,7 +146,7 @@ The video demonstrates:
 
 ---
 
-## 📌 Submission Information
+##  Submission Information
 
 - This is **Part 2** of the POE (App Prototype).
 - All minimum requirements on pages 7–8 of the POE document have been fully implemented and exceeded.
