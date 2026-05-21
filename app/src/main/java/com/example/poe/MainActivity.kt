@@ -20,7 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.poe.ui.theme.POETheme
+import androidx.compose.material3.MaterialTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             var darkMode by remember { mutableStateOf(false) }
-            POETheme(darkTheme = darkMode) {
+            MaterialTheme(darkTheme = darkMode) {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     floatingActionButton = {
