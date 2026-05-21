@@ -3,10 +3,6 @@ package com.example.poe.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-/**
- * Data class representing a User entity in the Room database.
- * Stores user profile information, credentials, and monthly financial goals.
- */
 @Entity(tableName = "users")
 data class User(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,

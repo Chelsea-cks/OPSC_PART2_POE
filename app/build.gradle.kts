@@ -39,9 +39,6 @@ android {
             )
         }
     }
-    kotlinOptions {
-        jvmTarget = "17"
-    }
     buildFeatures {
         compose = true
     }
@@ -57,8 +54,9 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material.icons.extended)
-    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
-    implementation("androidx.compose.ui:ui-graphics")
+    implementation(libs.mpandroidchart)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
     
     // Room
     implementation(libs.room.runtime)
