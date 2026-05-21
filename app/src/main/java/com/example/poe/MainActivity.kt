@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             var darkMode by remember { mutableStateOf(false) }
-            MaterialTheme(darkTheme = darkMode) {
+            MaterialTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     floatingActionButton = {
