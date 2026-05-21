@@ -4,11 +4,6 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 
-/**
- * Data class representing a financial "Bucket" entity in the Room database.
- * Buckets can be used to group transactions or categories into specific savings or budget goals.
- * Linked to a [User] through a foreign key.
- */
 @Entity(
     tableName = "buckets",
     foreignKeys = [

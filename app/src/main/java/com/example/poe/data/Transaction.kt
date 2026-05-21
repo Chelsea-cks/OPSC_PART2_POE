@@ -4,11 +4,6 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 
-/**
- * Data class representing a financial transaction (Income or Expense).
- * includes details like amount, date, time range, and an optional image URI.
- * uses foreign keys to link to the [User] who owns the transaction and the [Category] it belongs to.
- */
 @Entity(
     tableName = "transactions",
     foreignKeys = [

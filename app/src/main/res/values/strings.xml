@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">POE</string>
-    <string name="hello_message">Hello</string>
-    <string name="click_me">Click Me</string>
+    <string name="good_morning">Good morning 👋</string>
+    <string name="user_name">Alex Johnson</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="balance_amount">R 12,450.00</string>
+    <string name="budget_goals">Budget Goals</string>
+    <string name="budget_progress">R 5,750 of R 8,000</string>
+    <string name="achievements">Achievements</string>
+    <string name="first_budget_badge">🏆 First Budget Set</string>
+    <string name="transactions">Transactions</string>
+    <string name="grocery_transaction">-R 320 Groceries</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_badges">Badges</string>
+    <string name="nav_history">History</string>
 </resources>
